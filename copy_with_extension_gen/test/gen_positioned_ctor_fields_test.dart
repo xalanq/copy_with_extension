@@ -2,7 +2,7 @@ import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:equatable/equatable.dart';
 import 'package:test/test.dart' show expect, group, setUp, test;
 
-part 'gen_positioned_ctor_fields_test.g.dart';
+part 'gen_positioned_ctor_fields_test.copywith.dart';
 
 @CopyWith()
 class PositionedFields extends Equatable {

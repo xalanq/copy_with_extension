@@ -1,7 +1,7 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:test/test.dart' show test, expect;
 
-part 'gen_generics_test.g.dart';
+part 'gen_generics_test.copywith.dart';
 
 @CopyWith(copyWithNull: true)
 class Generics<G, T extends Iterable<G>> {

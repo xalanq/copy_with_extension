@@ -3,7 +3,7 @@ import 'package:copy_with_extension_gen/src/copy_with_field_annotation.dart';
 import 'package:copy_with_extension_gen/src/settings.dart';
 import 'package:test/test.dart' show test, expect;
 
-part 'gen_basic_functionality_test.g.dart';
+part 'gen_basic_functionality_test.copywith.dart';
 
 @CopyWith()
 class CopyWithValues {
